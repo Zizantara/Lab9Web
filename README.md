@@ -23,29 +23,53 @@ Dosen: Agung Nugroho,S.Kom.,M.Kom – Universitas Pelita Bangsa
 
 📁 Struktur Folder Proyek
 lab9_php_modular/
+
 │
+
 ├── assets/
+
 │   └── css/
+
 │       └── style.css
+
 │
+
 ├── config/
+
 │   └── database.php
+
 │
+
 ├── modules/
+
 │   └── user/
+
 │       ├── add.php
+
 │       ├── insert.php
+
 │       ├── list.php
+
 │       ├── edit.php
+
 │       ├── update.php
+
 │       └── delete.php
+
 │
+
 ├── views/
+
 │   ├── header.php
+
 │   ├── footer.php
+
 │   ├── dashboard.php
+
 │   └── about.php
+
 │
+
 └── index.php
 
 
