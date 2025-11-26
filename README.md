@@ -150,7 +150,7 @@ File style.css digunakan untuk:
 
 Tampilan menjadi jauh lebih elegan dan bersih.
 
-🧪 Cara Menjalankan Proyek
+## 🧪 Cara Menjalankan Proyek
 
 1. Letakkan folder di:
 
@@ -173,7 +173,7 @@ Tampilan menjadi jauh lebih elegan dan bersih.
 
 `http://localhost/lab9_php_modular/index.php`
 
-📷 Screenshot (Tambahkan Sendiri di GitHub)
+## 📷 Screenshot (Tambahkan Sendiri di GitHub)
 
 - Struktur folder
 
