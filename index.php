@@ -5,21 +5,17 @@ $page = isset($_GET['page']) ? $_GET['page'] : 'dashboard';
 
 switch ($page) {
 
-    // halaman default
+    /** VIEW HALAMAN */
     case 'dashboard':
+    case 'home':
         include 'views/dashboard.php';
         break;
 
-    // auth
-    case 'login':
-        include 'modules/auth/login.php';
+    case 'about':
+        include 'views/about.php';
         break;
 
-    case 'logout':
-        include 'modules/auth/logout.php';
-        break;
-
-    // user modules
+    /** MODUL USER */
     case 'user/list':
         include 'modules/user/list.php';
         break;
@@ -28,12 +24,20 @@ switch ($page) {
         include 'modules/user/add.php';
         break;
 
+    case 'user/insert':   // <--- PROSES TAMBAH USER
+        include 'modules/user/insert.php';
+        break;
+
     case 'user/edit':
         include 'modules/user/edit.php';
         break;
 
-    case 'user/hapus':
-        include 'modules/user/hapus.php';
+    case 'user/update':   // <--- PROSES UPDATE USER
+        include 'modules/user/update.php';
+        break;
+
+    case 'user/delete':
+        include 'modules/user/delete.php';
         break;
 
     default:

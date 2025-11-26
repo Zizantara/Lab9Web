@@ -5,7 +5,7 @@ $query = mysqli_query($koneksi, "SELECT * FROM users");
 ?>
 <h2>Daftar User</h2>
 
-<a href="index.php?page=user/tambah" class="btn">Tambah User</a>
+<a href="index.php?page=user/add" class="btn">Tambah User</a>
 
 <table border="1" cellpadding="8">
     <tr>
@@ -23,7 +23,7 @@ $query = mysqli_query($koneksi, "SELECT * FROM users");
             <td>
                 <a href="index.php?page=user/edit&id=<?= $row['id']; ?>">Edit</a>
                 |
-                <a href="index.php?page=user/hapus&id=<?= $row['id']; ?>" onclick="return confirm('Hapus data?')">Hapus</a>
+                <a href="index.php?page=user/delete&id=<?= $row['id']; ?>" onclick="return confirm('Hapus data?')">Hapus</a>
             </td>
         </tr>
     <?php endwhile; ?>
